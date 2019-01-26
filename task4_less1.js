@@ -12,9 +12,3 @@ isDeepEqual(a, b);// false
 b.prop1 = 1;
 isDeepEqual(a, b);// true
 console.log("========");
-
-(()=> {
-    // actions
-    const setAction = document.querySelector('#set');
-
-}
