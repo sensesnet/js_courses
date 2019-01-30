@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>JavaScript tutorial</title>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+	    <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="slidershow-container">
+            <!-- Photo effect  -->
+            <div class="mySlides">
+                    <img src="images/1.jpg">
+            </div>
+            <div class="mySlides">
+                    <img src="images/2.jpg">
+            </div>
+            <div class="mySlides">
+                    <img src="images/3.jpg">
+            </div>
+            <div class="mySlides">
+                    <img src="images/4.jpg">
+            </div>
+            <div class="mySlides">
+                    <img src="images/5.jpg">
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094</a>
+            <a class="next" onclick="changeSlide(1)">&#10095</a>
+        </div>
+        <br>
+        <div style="text-align: center">
+            <span class="dot" onclick="getSlide(1)"></span>
+            <span class="dot" onclick="getSlide(2)"></span>
+            <span class="dot" onclick="getSlide(3)"></span>
+            <span class="dot" onclick="getSlide(4)"></span>
+            <span class="dot" onclick="getSlide(5)"></span>
+        </div>
+        
+        <script src="./main.js"></script>
+    </body>
+</html>
