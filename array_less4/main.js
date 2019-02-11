@@ -1,5 +1,5 @@
 /**
- * Repair array with splice element.
+ * Repair array with splice element
  */
 var changeArr =  [1,2,3,4,5,6];
 var length = changeArr.length
